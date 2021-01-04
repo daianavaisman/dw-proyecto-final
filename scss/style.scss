@@ -1,0 +1,105 @@
+@import 'base/fonts';
+@import 'base/colors';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/novias';
+@import 'components/contacto';
+@import 'components/clases';
+@import 'components/sobreMi.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+p {
+    margin-top: 2rem;
+    line-height: 1.75em;
+}
+
+h1 {
+    font-family: Moontime;
+    font-size: 5rem;
+    text-shadow: 0 2px 3px $shadow;
+}
+
+h2 {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w30{
+    width: 30%;
+}
+
+.white {
+    color: $white;
+    margin-top: 1em;
+}
+
+.intro {
+    padding: 0 10%;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+
+/* Secciones */
+
+.sectionTitle {
+    color: $very-dark-grey;
+    text-align: center;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-weight: 200;
+    padding-bottom: 1rem;
+}
+
+.space-pre-section {
+    padding: 1.5rem;
+}
+
+.space-pink {
+    background-color: $pink;
+}
+
+.sectionPink {
+    background-color: $pink;
+    padding: 60px 2rem;
+}
+
+
+/* Mobile Styles */
+
+@media only screen and (max-width: 414px) {
+    
+    h1 {
+        font-size: 3rem;
+    }
+
+}    
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 415px) and (max-width: 960px) {
+    
+    .margin-mq {
+        margin-top: 95px;
+    }
+
+}

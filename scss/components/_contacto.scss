@@ -1,0 +1,84 @@
+.sectionContacto {
+    background-color: $pink;
+    margin: 0 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-contacto {
+    margin: 0 250px 20px 250px;
+}
+
+.formContacto {
+    background-color: $white;
+    border: 1px solid $dark-grey;
+    border-radius: 3px;
+    width: 60%;
+    padding: 50px;
+    margin: auto;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row textarea {
+    background-color: $white;
+    border: 1px solid $light-grey;
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.form-row label {
+    margin-bottom: 15px;
+}
+
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid {
+    border: 1px solid #D55C5F;
+    color: #D55C5F;
+    box-shadow: none; 
+}
+
+.form-button {
+    width: 30%;
+}
+
+@media only screen and (max-width: 414px) {
+    .text-contacto {
+        margin: 0 0 10px 0;
+    } 
+
+    .formContacto {
+        width: 100%;
+    }
+
+    .form-button {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 960px) {
+    
+    .text-contacto {
+        margin: 0 100px 20px 100px;
+    }
+
+    .form-button {
+        width: 50%;
+    }
+
+    .formContacto {
+        width: 80%;
+    }
+}
