@@ -181,6 +181,17 @@
   .testimonials-bg {
     display: none;
   }
+
+  .testimonials-bg {
+    display: none;
+  }
+
+  .caption-responsive {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    left: 0;
+  }
 }
 .sectionContacto {
   background-color: #FAEEE9;
