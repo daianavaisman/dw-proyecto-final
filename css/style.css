@@ -153,11 +153,12 @@
   margin-left: 10px;
 }
 
-@media only screen and (max-width: 414px) {
-  .no-padding {
-    padding-bottom: 0;
-  }
+.testimonials-by {
+  font-family: Moontime;
+  font-size: 20px;
+}
 
+@media only screen and (max-width: 414px) {
   .comillas {
     max-width: 30px;
   }

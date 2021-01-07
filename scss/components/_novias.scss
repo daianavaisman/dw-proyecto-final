@@ -52,11 +52,13 @@
     margin-left: 10px;
 }
 
+.testimonials-by {
+    font-family: Moontime;
+    font-size: 20px;
+}
+
 @media only screen and (max-width: 414px) {
-    .no-padding {
-        padding-bottom: 0;
-    }
-    
+
     .comillas {
         max-width: 30px;
     }
