@@ -154,6 +154,10 @@
 }
 
 @media only screen and (max-width: 414px) {
+  .no-padding {
+    padding-bottom: 0;
+  }
+
   .comillas {
     max-width: 30px;
   }
@@ -207,7 +211,7 @@
 .form-row input[type=email],
 .form-row textarea {
   background-color: #FFFFFF;
-  border: 1px solid #d6d3c5;
+  border: 1px solid #ececec;
   border-radius: 3px;
   width: 100%;
   padding: 7px;
@@ -281,7 +285,7 @@
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #d6d3c5;
+  background-color: #ececec;
 }
 
 .clase-image-container:hover .layer-top {
@@ -334,7 +338,7 @@
   }
 }
 .sectionSobreMi {
-  background-color: #d6d3c5;
+  background-color: #ececec;
   margin-top: 45px;
 }
 
@@ -345,7 +349,7 @@
 @media only screen and (max-width: 414px) {
   .sobreMi-responsive {
     position: relative;
-    bottom: 75%;
+    bottom: 90%;
   }
 
   .sobreMi-text-responsive {
@@ -435,6 +439,14 @@ h2 {
 @media only screen and (max-width: 414px) {
   h1 {
     font-size: 3rem;
+  }
+
+  .sectionPink {
+    padding: 0px 2rem 20px 2rem;
+  }
+
+  .sectionTitle {
+    padding-bottom: 0;
   }
 }
 /* Tablet Styles */
