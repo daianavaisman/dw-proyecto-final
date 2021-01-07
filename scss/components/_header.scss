@@ -33,17 +33,6 @@
     box-shadow: 0 2px 4px 0 $shadow;
 }
 
-.banner-text {
-    display: flex;
-    position: absolute;
-    left: 10%;
-    top: 20%;
-    color: $white;
-    font-family: Moontime;
-    font-size: 3rem;
-    text-shadow: 0 2px 3px $shadow;
-}
-
 // Mobile Styles
 
 @media only screen and (max-width: 414px) {
@@ -54,19 +43,6 @@
     .nav-display {
         display: block;
     }
-    
-    .banner-text {
-        display: none;
-    }
 }    
 
 //* Tablet Styles */
-
-@media only screen and (min-width: 415px) and (max-width: 960px) {
-    
-    .banner-text {
-        top: 15%;
-    }
-    
-
-}
