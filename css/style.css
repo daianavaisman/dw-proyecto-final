@@ -47,6 +47,11 @@
     display: block;
   }
 }
+@media only screen and (min-width: 415px) and (max-width: 960px) {
+  .margin-mq {
+    margin-top: 70px;
+  }
+}
 .logoFooter {
   max-width: 10%;
   margin: 10px;
@@ -450,12 +455,6 @@ h2 {
 
   .sectionTitle {
     padding-bottom: 0;
-  }
-}
-/* Tablet Styles */
-@media only screen and (min-width: 415px) and (max-width: 960px) {
-  .margin-mq {
-    margin-top: 95px;
   }
 }
 
