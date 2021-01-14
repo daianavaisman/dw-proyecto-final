@@ -185,6 +185,19 @@
     left: 0;
   }
 }
+@media only screen and (min-width: 415px) and (max-width: 960px) {
+  .caption-responsive {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    left: 0;
+  }
+
+  .testimonials-bg {
+    opacity: 0;
+    max-width: 0;
+  }
+}
 .sectionContacto {
   background-color: #FAEEE9;
   margin: 0 20%;
