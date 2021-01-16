@@ -50,10 +50,18 @@
   .nav-display {
     display: block;
   }
+
+  .logo {
+    max-width: 40%;
+  }
 }
 @media only screen and (min-width: 415px) and (max-width: 960px) {
   .margin-mq {
     margin-top: 70px;
+  }
+
+  .logo {
+    max-width: 40%;
   }
 }
 .logoFooter {
