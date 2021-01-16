@@ -33,6 +33,10 @@
     box-shadow: 0 2px 4px 0 $shadow;
 }
 
+.nav-bar-end {
+    justify-content: flex-end;
+}
+
 // Mobile Styles
 
 @media only screen and (max-width: 414px) {
