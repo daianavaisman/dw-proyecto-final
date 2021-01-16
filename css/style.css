@@ -54,6 +54,14 @@
   .logo {
     max-width: 40%;
   }
+
+  .nav-bar-items-resonsive {
+    text-align: right;
+  }
+
+  .nav-bar-lastitem-resonsive {
+    margin-right: 1rem;
+  }
 }
 @media only screen and (min-width: 415px) and (max-width: 960px) {
   .margin-mq {
@@ -62,6 +70,14 @@
 
   .logo {
     max-width: 40%;
+  }
+
+  .nav-bar-items-resonsive {
+    text-align: right;
+  }
+
+  .nav-bar-lastitem-resonsive {
+    margin-right: 1rem;
   }
 }
 .logoFooter {
