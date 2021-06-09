@@ -412,6 +412,14 @@
     bottom: 6%;
   }
 }
+.carrito {
+  position: fixed;
+  z-index: 3;
+  right: 20px;
+  top: 115px;
+  max-width: 80px;
+}
+
 * {
   margin: 0;
   padding: 0;
